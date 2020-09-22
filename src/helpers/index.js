@@ -1,0 +1,3 @@
+/**
+ * modulos auxiliadores globais
+ */
