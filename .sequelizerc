@@ -1,0 +1,10 @@
+// .sequelizerc
+
+const path = require('path');
+
+module.exports = {
+  'config': path.resolve(__dirname + '/src/infra/databases/sequelize', 'config.js'),
+  'models-path': path.resolve(__dirname + '/src/infra/databases/sequelize', 'models'),
+  'migrations-path': path.resolve(__dirname + '/src/infra/databases/sequelize', 'migrations'),
+  'seeders-path': path.resolve(__dirname + '/src/infra/databases/sequelize', 'seeders')
+};
